@@ -1,1 +1,1 @@
-mi nombre es juan angel rueda correa, tengo 20 años y me encanta escuchar musica en especial de nanpa basico, me gustan los animales en general pero mas los gaticos, vivo en medellin hace 2 años y naci en el municipio de urrao antioquia 
+mi nombre es juan angel rueda correa, tengo 20 años y me encanta escuchar musica en especial de nanpa basico, me gustan los animales en general pero mas los gaticos, vivo en medellin hace 2 años y naci en el municipio de urrao antioquia y me gusta bastante todo el tema relacionado a la tecnolgia.
