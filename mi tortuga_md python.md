@@ -135,8 +135,12 @@ print("\nLa tortuga ha terminado su recorrido.")
                                                      |
                                                      ↓
 
-    La tortuga ha terminado su recorrido.
+    La tortuga ha terminado su recorrido. 
 
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/62620c69-f7f9-4720-b05d-5dc3b2376b11" />
+
+    
 
 ``` python
 #Reto4. Girar y dibujar usando solo print e input.
