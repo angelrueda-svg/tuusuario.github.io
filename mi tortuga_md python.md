@@ -19,7 +19,7 @@ jupyter:
   nbformat_minor: 5
 ---
 
-
+::: {#748aa2ed .cell .code id="748aa2ed"}
 ``` python
 import turtle
 
@@ -27,14 +27,14 @@ t = turtle.Turtle()   # Crea una tortuga
 t.forward(100)        # Avanza 100 unidades
 turtle.done()         # Mantiene la ventana abierta
 ```
+:::
 
-
-
+::: {#e1d530be .cell .code id="e1d530be" outputId="a3eb7088-6206-4ec3-c2c3-3a402c45043e"}
 ``` python
 #Reto1. Simula el comportamiento de la tortuga usando solo print y input
 
 print("Simulación de tortuga:")
-# Se POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
+# Se POCISIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
 # Posición inicial
 posicion = 0
 print("La tortuga está en la posición:", posicion)
@@ -54,19 +54,16 @@ print("La tortuga avanzó", pasos, "unidades.")
 print("La nueva posición es:", posicion)
 ```
 
-
+::: {.output .stream .stdout}
     Simulación de tortuga:
     La tortuga está en la posición: 0
     -------------------------------------------------→
     La tortuga avanzó 50 unidades.
     La nueva posición es: 50
+:::
+:::
 
-
-![WhatsApp Image 2025-12-10 at 11 05 50 PM](https://github.com/user-attachments/assets/18ce6655-3746-4a5e-add4-97211d184501)
-
-
-
-
+::: {#0947eaf5 .cell .code id="0947eaf5" outputId="4e487a4a-b901-489f-8c72-67ca9f166720"}
 ``` python
 #Reto2. Simula la tortuga bajando usando solo print y input
 #crea el rastro de una tortuga moviendose hacia abajo usando unicamente print e input.
@@ -83,7 +80,7 @@ for i in range(pasos):
 print("↓")  # flechita SOLO al final
 ```
 
-
+::: {.output .stream .stdout}
     Simulación de tortuga bajando:
     |
     |
@@ -96,12 +93,10 @@ print("↓")  # flechita SOLO al final
     |
     |
     ↓
+:::
+:::
 
-![WhatsApp Image 2025-12-10 at 11 05 50 PM](https://github.com/user-attachments/assets/e7fb18b4-5807-4e14-852c-f9146876fa5a)
-
-
-
-
+::: {#2b0f7e99 .cell .code id="2b0f7e99" outputId="7f9fadec-0e44-4150-fd01-da41f3e581bf"}
 ``` python
 #Reto3. Tortuga avanzando hacia adelante y luego hacia abajo
 # Crea el rastro de una tortuga moviendose hacia adelante y luego hacai abajo usando unicamente print e input.
@@ -121,6 +116,7 @@ print(" " * 49 + "↓")   # Flecha al final del tramo vertical
 print("\nLa tortuga ha terminado su recorrido.")
 ```
 
+::: {.output .stream .stdout}
     Simulación de tortuga:
 
     -------------------------------------------------→
@@ -135,13 +131,11 @@ print("\nLa tortuga ha terminado su recorrido.")
                                                      |
                                                      ↓
 
-    La tortuga ha terminado su recorrido. 
+    La tortuga ha terminado su recorrido.
+:::
+:::
 
-
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/62620c69-f7f9-4720-b05d-5dc3b2376b11" />
-
-    
-
+::: {#353c14bd .cell .code id="353c14bd" outputId="7557285e-f9a2-4f4a-c796-b367f513d6a8"}
 ``` python
 #Reto4. Girar y dibujar usando solo print e input.
 # ahora la tortuga no solo avanza: tambien gira, observa como lo hace la version grafica.
@@ -178,7 +172,7 @@ print("              ↓")        # flecha hacia abajo
 print("\nDibujo terminado.")
 ```
 
-
+::: {.output .stream .stdout}
     Simulación de tortuga dibujando escalones
 
     Escalón 1:
@@ -197,6 +191,50 @@ print("\nDibujo terminado.")
                   ↓
 
     Dibujo terminado.
-    
+:::
+:::
 
-<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/3dd6fd2e-387d-4ea1-b1e6-70e79ad8334f" />
+::: {#e5e0f4f1 .cell .code execution_count="5"}
+``` python
+
+## Reto 4 -- Dibujar escalones
+python
+print("Simulación de tortuga dibujando escalones\n")
+
+print("Escalón 1:")
+input("ENTER para avanzar 5...")
+print("----→")
+input("ENTER para bajar 2...")
+print("    |")
+print("    ↓")
+
+print("\nEscalón 2:")
+input("ENTER para avanzar 5...")
+print("---------→")
+input("ENTER para bajar 2...")
+print("         |")
+print("         ↓")
+
+print("\nEscalón 3:")
+input("ENTER para avanzar 5...")
+print("--------------→")
+input("ENTER para bajar 2...")
+print("              |")
+print("              ↓")
+
+print("\nDibujo terminado.")
+
+```
+
+::: {.output .error ename="NameError" evalue="name 'python' is not defined"}
+    ---------------------------------------------------------------------------
+    NameError                                 Traceback (most recent call last)
+    Cell In[5], line 2
+          1 ## Reto 4 -- Dibujar escalones
+    ----> 2 python
+          3 print("Simulación de tortuga dibujando escalones\n")
+          5 print("Escalón 1:")
+
+    NameError: name 'python' is not defined
+:::
+:::
