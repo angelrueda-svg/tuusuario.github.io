@@ -198,3 +198,5 @@ print("\nDibujo terminado.")
 
     Dibujo terminado.
     
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/3dd6fd2e-387d-4ea1-b1e6-70e79ad8334f" />
