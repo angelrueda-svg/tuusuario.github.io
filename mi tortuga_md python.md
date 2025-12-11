@@ -62,6 +62,7 @@ print("La nueva posición es:", posicion)
     La nueva posición es: 50
 
 
+![WhatsApp Image 2025-12-10 at 11 05 50 PM](https://github.com/user-attachments/assets/18ce6655-3746-4a5e-add4-97211d184501)
 
 
 
