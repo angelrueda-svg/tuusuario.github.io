@@ -27,7 +27,7 @@ t = turtle.Turtle()   # Crea una tortuga
 t.forward(100)        # Avanza 100 unidades
 turtle.done()         # Mantiene la ventana abierta
 ```
-:::
+
 
 
 ``` python
@@ -60,8 +60,10 @@ print("La nueva posición es:", posicion)
     -------------------------------------------------→
     La tortuga avanzó 50 unidades.
     La nueva posición es: 50
-:::
-:::
+
+
+
+
 
 
 ``` python
@@ -80,7 +82,7 @@ for i in range(pasos):
 print("↓")  # flechita SOLO al final
 ```
 
-::: {.output .stream .stdout}
+
     Simulación de tortuga bajando:
     |
     |
@@ -93,8 +95,6 @@ print("↓")  # flechita SOLO al final
     |
     |
     ↓
-:::
-:::
 
 
 ``` python
@@ -116,7 +116,6 @@ print(" " * 49 + "↓")   # Flecha al final del tramo vertical
 print("\nLa tortuga ha terminado su recorrido.")
 ```
 
-::: {.output .stream .stdout}
     Simulación de tortuga:
 
     -------------------------------------------------→
@@ -132,8 +131,6 @@ print("\nLa tortuga ha terminado su recorrido.")
                                                      ↓
 
     La tortuga ha terminado su recorrido.
-:::
-:::
 
 
 ``` python
