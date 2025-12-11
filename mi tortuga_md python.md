@@ -11,7 +11,7 @@ turtle.done()         # Mantiene la ventana abierta
 #Reto1. Simula el comportamiento de la tortuga usando solo print y input
 
 print("Simulación de tortuga:")
-# Se POCISIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
+# Se POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
 # Posición inicial
 posicion = 0
 print("La tortuga está en la posición:", posicion)
@@ -37,6 +37,9 @@ print("La nueva posición es:", posicion)
     -------------------------------------------------→
     La tortuga avanzó 50 unidades.
     La nueva posición es: 50
+
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/226a8d3b-58ce-4e95-a42e-0ccad4b3e6d7" />
+
 
 ``` python
 #Reto2. Simula la tortuga bajando usando solo print y input
@@ -67,6 +70,10 @@ print("↓")  # flechita SOLO al final
     |
     |
     ↓
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d603f76e-2568-4fed-8ef6-1a3e86dd7d60" />
+
+
 
 ``` python
 #Reto3. Tortuga avanzando hacia adelante y luego hacia abajo
@@ -103,6 +110,9 @@ print("\nLa tortuga ha terminado su recorrido.")
                                                      ↓
 
     La tortuga ha terminado su recorrido.
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/f727fb1f-6b8c-40e8-a0ab-3fd0bdc2b441" />
+
 
 ``` python
 #Reto4. Girar y dibujar usando solo print e input.
@@ -159,4 +169,7 @@ print("\nDibujo terminado.")
                   ↓
 
     Dibujo terminado.
+
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/d2d4303f-b585-489a-b292-7974c61a6b4b" />
 
