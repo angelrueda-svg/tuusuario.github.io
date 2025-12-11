@@ -34,7 +34,7 @@ turtle.done()         # Mantiene la ventana abierta
 #Reto1. Simula el comportamiento de la tortuga usando solo print y input
 
 print("Simulación de tortuga:")
-# Se POCISIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
+# Se POSICIONO LA TORTUGA EN LA POSICION INICIAL 0 Y AVANZA 50 UNIDADES DIBUJANDO SU RASTRO
 # Posición inicial
 posicion = 0
 print("La tortuga está en la posición:", posicion)
@@ -54,7 +54,7 @@ print("La tortuga avanzó", pasos, "unidades.")
 print("La nueva posición es:", posicion)
 ```
 
-::: {.output .stream .stdout}
+
     Simulación de tortuga:
     La tortuga está en la posición: 0
     -------------------------------------------------→
