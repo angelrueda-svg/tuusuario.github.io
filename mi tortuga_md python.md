@@ -97,6 +97,10 @@ print("↓")  # flechita SOLO al final
     |
     ↓
 
+![WhatsApp Image 2025-12-10 at 11 05 50 PM](https://github.com/user-attachments/assets/e7fb18b4-5807-4e14-852c-f9146876fa5a)
+
+
+
 
 ``` python
 #Reto3. Tortuga avanzando hacia adelante y luego hacia abajo
